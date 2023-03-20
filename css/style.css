@@ -94,7 +94,7 @@ body {
     }
 
     .header {
-        padding: 5%;
+        padding: 5% 5% 2% 5%;
     }
 
     .container {
@@ -103,7 +103,8 @@ body {
         flex-direction: column;
         text-align: center;
         padding: 0;
-        height: 75vh;
+        height: 70vh;
+        margin-bottom: 70px;
     }
 
     .container img{
@@ -120,10 +121,15 @@ body {
         font-size: max(3vw, 25px);
     }
 
+    .container .description {
+        margin: 5px 0 30px 0; 
+    }
 
     .footer {
         position: static;
         text-align: center;
+        bottom: 0;
+        
     }
 
     .footer .fab {
@@ -147,8 +153,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        height: 80vh;
+        height: 78vh;
+        margin: 0 0 3px 0;
     }
+
     .container img {
         width: 100%;
         padding: 0 5%;
@@ -165,7 +173,10 @@ body {
 
     .container .description {
         font-size: max(18px, 1.4vw);
-        padding: 10%;
-        margin: 0 0 10px 0;
+        margin: 5px 0 40px 0;
     }     
+
+    .footer {
+    
+    }
 }
